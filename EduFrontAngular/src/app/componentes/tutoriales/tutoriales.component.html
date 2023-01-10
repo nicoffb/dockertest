@@ -1,0 +1,14 @@
+<h1>Buenas</h1>
+<div class="row justify-content-center">
+    <div
+      class="card col-2 mx-2 my-2 px-0 border border-dark border-3"
+      *ngFor="let tutorial of listaTutoriales"
+    >
+
+      <div class="card-body text-center">
+        <h5 class="card-title fs-3">{{ tutorial.title }}</h5>
+        <h5 class="card-title fs-3">{{ tutorial.description }}</h5>
+        <h5 class="card-title fs-3">{{ tutorial.published }}</h5>
+      </div>
+    </div>
+  </div>
